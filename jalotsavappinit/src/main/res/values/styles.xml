@@ -1,0 +1,470 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+    <style name="AppBaseThemeDark" parent="Theme.AppCompat"/>
+
+    <!-- Red -->
+    <style name="AppThemeRed" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorPrimaryRed</item>
+    </style>
+    <!-- Red NoActionBar -->
+    <style name="AppThemeRed.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Red DarkTheme -->
+    <style name="AppDarkThemeRed" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorPrimaryRed</item>
+    </style>
+    <!-- Red DarkTheme NoActionBar -->
+    <style name="AppDarkThemeRed.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Pink -->
+    <style name="AppThemePink" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPink</item>
+        <item name="colorAccent">@color/colorPrimaryPink</item>
+    </style>
+    <!-- Pink NoActionBar -->
+    <style name="AppThemePink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Pink DarkTheme -->
+    <style name="AppDarkThemePink" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPink</item>
+        <item name="colorAccent">@color/colorPrimaryPink</item>
+    </style>
+    <!-- Pink DarkTheme NoActionBar -->
+    <style name="AppDarkThemePink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Purple -->
+    <style name="AppThemePurple" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorPrimaryPurple</item>
+    </style>
+    <!-- Purple NoActionBar -->
+    <style name="AppThemePurple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Purple DarkTheme -->
+    <style name="AppDarkThemePurple" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorPrimaryPurple</item>
+    </style>
+    <!-- Purple DarkTheme NoActionBar -->
+    <style name="AppDarkThemePurple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- DeepPurple -->
+    <style name="AppThemeDeepPurple" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryDeepPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDeepPurple</item>
+        <item name="colorAccent">@color/colorPrimaryDeepPurple</item>
+    </style>
+    <!-- DeepPurple NoActionBar -->
+    <style name="AppThemeDeepPurple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- DeepPurple DarkTheme -->
+    <style name="AppDarkThemeDeepPurple" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryDeepPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDeepPurple</item>
+        <item name="colorAccent">@color/colorPrimaryDeepPurple</item>
+    </style>
+    <!-- DeepPurple DarkTheme NoActionBar -->
+    <style name="AppDarkThemeDeepPurple.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Indigo -->
+    <style name="AppThemeIndigo" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkIndigo</item>
+        <item name="colorAccent">@color/colorPrimaryIndigo</item>
+    </style>
+    <!-- Indigo NoActionBar -->
+    <style name="AppThemeIndigo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Indigo DarkTheme -->
+    <style name="AppDarkThemeIndigo" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkIndigo</item>
+        <item name="colorAccent">@color/colorPrimaryIndigo</item>
+    </style>
+    <!-- Indigo DarkTheme NoActionBar -->
+    <style name="AppDarkThemeIndigo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Blue -->
+    <style name="AppThemeBlue" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorPrimaryBlue</item>
+    </style>
+    <!-- Blue NoActionBar -->
+    <style name="AppThemeBlue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Blue DarkTheme -->
+    <style name="AppDarkThemeBlue" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorPrimaryBlue</item>
+    </style>
+    <!-- Blue DarkTheme NoActionBar -->
+    <style name="AppDarkThemeBlue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- LightBlue -->
+    <style name="AppThemeLightBlue" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryLightBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightBlue</item>
+        <item name="colorAccent">@color/colorPrimaryLightBlue</item>
+    </style>
+    <!-- LightBlue NoActionBar -->
+    <style name="AppThemeLightBlue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- LightBlue DarkTheme -->
+    <style name="AppDarkThemeLightBlue" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryLightBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightBlue</item>
+        <item name="colorAccent">@color/colorPrimaryLightBlue</item>
+    </style>
+    <!-- LightBlue DarkTheme NoActionBar -->
+    <style name="AppDarkThemeLightBlue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Cyan -->
+    <style name="AppThemeCyan" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCyan</item>
+        <item name="colorAccent">@color/colorPrimaryCyan</item>
+    </style>
+    <!-- Cyan NoActionBar -->
+    <style name="AppThemeCyan.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Cyan DarkTheme -->
+    <style name="AppDarkThemeCyan" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCyan</item>
+        <item name="colorAccent">@color/colorPrimaryCyan</item>
+    </style>
+    <!-- Cyan DarkTheme NoActionBar -->
+    <style name="AppDarkThemeCyan.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Teal -->
+    <style name="AppThemeTeal" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryTeal</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTeal</item>
+        <item name="colorAccent">@color/colorPrimaryTeal</item>
+    </style>
+    <!-- Teal NoActionBar -->
+    <style name="AppThemeTeal.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Teal DarkTheme -->
+    <style name="AppDarkThemeTeal" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryTeal</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTeal</item>
+        <item name="colorAccent">@color/colorPrimaryTeal</item>
+    </style>
+    <!-- Teal DarkTheme NoActionBar -->
+    <style name="AppDarkThemeTeal.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Green -->
+    <style name="AppThemeGreen" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorPrimaryGreen</item>
+    </style>
+    <!-- Green NoActionBar -->
+    <style name="AppThemeGreen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Green DarkTheme -->
+    <style name="AppDarkThemeGreen" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorPrimaryGreen</item>
+    </style>
+    <!-- Green DarkTheme NoActionBar -->
+    <style name="AppDarkThemeGreen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- LightGreen -->
+    <style name="AppThemeLightGreen" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryLightGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightGreen</item>
+        <item name="colorAccent">@color/colorPrimaryLightGreen</item>
+    </style>
+    <!-- LightGreen NoActionBar -->
+    <style name="AppThemeLightGreen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- LightGreen DarkTheme -->
+    <style name="AppDarkThemeLightGreen" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryLightGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLightGreen</item>
+        <item name="colorAccent">@color/colorPrimaryLightGreen</item>
+    </style>
+    <!-- LightGreen DarkTheme NoActionBar -->
+    <style name="AppDarkThemeLightGreen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Lime -->
+    <style name="AppThemeLime" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryLime</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLime</item>
+        <item name="colorAccent">@color/colorPrimaryLime</item>
+    </style>
+    <!-- Lime NoActionBar -->
+    <style name="AppThemeLime.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Lime DarkTheme -->
+    <style name="AppDarkThemeLime" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryLime</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLime</item>
+        <item name="colorAccent">@color/colorPrimaryLime</item>
+    </style>
+    <!-- Lime DarkTheme NoActionBar -->
+    <style name="AppDarkThemeLime.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Yellow -->
+    <style name="AppThemeYellow" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryYellow</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkYellow</item>
+        <item name="colorAccent">@color/colorPrimaryYellow</item>
+    </style>
+    <!-- Yellow NoActionBar -->
+    <style name="AppThemeYellow.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Yellow DarkTheme -->
+    <style name="AppDarkThemeYellow" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryYellow</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkYellow</item>
+        <item name="colorAccent">@color/colorPrimaryYellow</item>
+    </style>
+    <!-- Yellow DarkTheme NoActionBar -->
+    <style name="AppDarkThemeYellow.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Amber -->
+    <style name="AppThemeAmber" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryAmber</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAmber</item>
+        <item name="colorAccent">@color/colorPrimaryAmber</item>
+    </style>
+    <!-- Amber NoActionBar -->
+    <style name="AppThemeAmber.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Amber DarkTheme -->
+    <style name="AppDarkThemeAmber" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryAmber</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAmber</item>
+        <item name="colorAccent">@color/colorPrimaryAmber</item>
+    </style>
+    <!-- Amber DarkTheme NoActionBar -->
+    <style name="AppDarkThemeAmber.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Orange -->
+    <style name="AppThemeOrange" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkOrange</item>
+        <item name="colorAccent">@color/colorPrimaryOrange</item>
+    </style>
+    <!-- Orange NoActionBar -->
+    <style name="AppThemeOrange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Orange DarkTheme -->
+    <style name="AppDarkThemeOrange" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkOrange</item>
+        <item name="colorAccent">@color/colorPrimaryOrange</item>
+    </style>
+    <!-- Orange DarkTheme NoActionBar -->
+    <style name="AppDarkThemeOrange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- DeepOrange -->
+    <style name="AppThemeDeepOrange" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryDeepOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDeepOrange</item>
+        <item name="colorAccent">@color/colorPrimaryDeepOrange</item>
+    </style>
+    <!-- DeepOrange NoActionBar -->
+    <style name="AppThemeDeepOrange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- DeepOrange DarkTheme -->
+    <style name="AppDarkThemeDeepOrange" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryDeepOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDeepOrange</item>
+        <item name="colorAccent">@color/colorPrimaryDeepOrange</item>
+    </style>
+    <!-- DeepOrange DarkTheme NoActionBar -->
+    <style name="AppDarkThemeDeepOrange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Brown -->
+    <style name="AppThemeBrown" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/colorPrimaryBrown</item>
+    </style>
+    <!-- Brown NoActionBar -->
+    <style name="AppThemeBrown.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Brown DarkTheme -->
+    <style name="AppDarkThemeBrown" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryBrown</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBrown</item>
+        <item name="colorAccent">@color/colorPrimaryBrown</item>
+    </style>
+    <!-- Brown DarkTheme NoActionBar -->
+    <style name="AppDarkThemeBrown.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Grey -->
+    <style name="AppThemeGrey" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGrey</item>
+        <item name="colorAccent">@color/colorPrimaryGrey</item>
+    </style>
+    <!-- Grey NoActionBar -->
+    <style name="AppThemeGrey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Grey DarkTheme -->
+    <style name="AppDarkThemeGrey" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGrey</item>
+        <item name="colorAccent">@color/colorPrimaryGrey</item>
+    </style>
+    <!-- Grey DarkTheme NoActionBar -->
+    <style name="AppDarkThemeGrey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- BlueGrey -->
+    <style name="AppThemeBlueGrey" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryBlueGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlueGrey</item>
+        <item name="colorAccent">@color/colorPrimaryBlueGrey</item>
+    </style>
+    <!-- BlueGrey NoActionBar -->
+    <style name="AppThemeBlueGrey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- BlueGrey DarkTheme -->
+    <style name="AppDarkThemeBlueGrey" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryBlueGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlueGrey</item>
+        <item name="colorAccent">@color/colorPrimaryBlueGrey</item>
+    </style>
+    <!-- BlueGrey DarkTheme NoActionBar -->
+    <style name="AppDarkThemeBlueGrey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- BlueMidnight -->
+    <style name="AppThemeBlueMidnight" parent="AppBaseTheme">
+        <item name="colorPrimary">@color/colorPrimaryBlueMidnight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlueMidnight</item>
+        <item name="colorAccent">@color/colorPrimaryBlueMidnight</item>
+    </style>
+    <!-- BlueMidnight NoActionBar -->
+    <style name="AppThemeBlueMidnight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- BlueMidnight DarkTheme -->
+    <style name="AppDarkThemeBlueMidnight" parent="AppBaseThemeDark">
+        <item name="colorPrimary">@color/colorPrimaryBlueMidnight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlueMidnight</item>
+        <item name="colorAccent">@color/colorPrimaryBlueMidnight</item>
+    </style>
+    <!-- BlueMidnight DarkTheme NoActionBar -->
+    <style name="AppDarkThemeBlueMidnight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

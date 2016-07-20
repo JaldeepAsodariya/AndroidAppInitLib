@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Material Colors-->
+    <color name="colorPrimaryRed">#F44336</color>
+    <color name="colorPrimaryDarkRed">#D32F2F</color>
+    <color name="colorPrimaryPink">#E91E63</color>
+    <color name="colorPrimaryDarkPink">#C2185B</color>
+    <color name="colorPrimaryPurple">#9C27B0</color>
+    <color name="colorPrimaryDarkPurple">#7B1FA2</color>
+    <color name="colorPrimaryDeepPurple">#673AB7</color>
+    <color name="colorPrimaryDarkDeepPurple">#512DA8</color>
+    <color name="colorPrimaryIndigo">#3F51B5</color>
+    <color name="colorPrimaryDarkIndigo">#303F9F</color>
+    <color name="colorPrimaryBlue">#2196F3</color>
+    <color name="colorPrimaryDarkBlue">#1976D2</color>
+    <color name="colorPrimaryLightBlue">#03A9F4</color>
+    <color name="colorPrimaryDarkLightBlue">#0288D1</color>
+    <color name="colorPrimaryCyan">#00BCD4</color>
+    <color name="colorPrimaryDarkCyan">#0097A7</color>
+    <color name="colorPrimaryTeal">#009688</color>
+    <color name="colorPrimaryDarkTeal">#00796B</color>
+    <color name="colorPrimaryGreen">#4CAF50</color>
+    <color name="colorPrimaryDarkGreen">#388E3C</color>
+    <color name="colorPrimaryLightGreen">#8BC34A</color>
+    <color name="colorPrimaryDarkLightGreen">#689F38</color>
+    <color name="colorPrimaryLime">#CDDC39</color>
+    <color name="colorPrimaryDarkLime">#AFB42B</color>
+    <color name="colorPrimaryYellow">#FFEB3B</color>
+    <color name="colorPrimaryDarkYellow">#FBC02D</color>
+    <color name="colorPrimaryAmber">#FFC107</color>
+    <color name="colorPrimaryDarkAmber">#FFA000</color>
+    <color name="colorPrimaryOrange">#FF9800</color>
+    <color name="colorPrimaryDarkOrange">#F57C00</color>
+    <color name="colorPrimaryDeepOrange">#FF5722</color>
+    <color name="colorPrimaryDarkDeepOrange">#E64A19</color>
+    <color name="colorPrimaryBrown">#795548</color>
+    <color name="colorPrimaryDarkBrown">#5D4037</color>
+    <color name="colorPrimaryGrey">#9E9E9E</color>
+    <color name="colorPrimaryDarkGrey">#616161</color>
+    <color name="colorPrimaryBlueGrey">#607D8B</color>
+    <color name="colorPrimaryDarkBlueGrey">#455A64</color>
+    <color name="colorPrimaryBlueMidnight">#21272B</color>
+    <color name="colorPrimaryDarkBlueMidnight">#263238</color>
+
+    <!--Others-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteTrsprnt25">#25FFFFFF</color>
+    <color name="whiteTrsprnt50">#50FFFFFF</color>
+    <color name="whiteTrsprnt80">#80FFFFFF</color>
+    <color name="whiteDialogBg">#F5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="black81">#818181</color>
+    <color name="blackTrsprnt50">#50000000</color>
+    <color name="blackTrsprnt80">#80000000</color>
+    <color name="turquoiseDrk">#4DB6AC</color>
+    <color name="gray">#DDDDDD</color>
+    <color name="gray300">#E0E0E0</color> <!--Gray 300-->
+    <color name="gray100">#F5F5F5</color> <!--Gray 100-->
+    <color name="gray50">#FAFAFA</color> <!--Gray 50-->
+    <color name="gray900">#212121</color> <!--Gray 900-->
+    <color name="gray700">#303030</color> <!--Gray 700-->
+    <color name="gray800">#424242</color> <!--Gray 800-->
+    <color name="grayA8">#A8A8A8</color>
+    <color name="darkPinkRadial">#EA1E63</color>
+    <color name="pinkLight">#CA92D9</color>
+    <color name="purpale">#4E6CF0</color>
+    <color name="blue">#3367D6</color>
+    <color name="blueSky">#0EADCD</color>
+    <color name="blueBelize">#2980b9</color>
+    <color name="yellowEnglish">#D1D96C</color>
+    <color name="red">#E74C3C</color>
+    <color name="redAlizarin">#E95D4E</color>
+    <color name="greenSpeech">#03A678</color>
+    <color name="yellowSunflwr">#F1C40F</color>
+    <color name="yellowSnackbar">#F4B400</color>
+
+    <!-- FAB -->
+    <color name="blackSemiTransparent">#B2000000</color>
+    <color name="half_black">#808080</color>
+    <color name="whiteFabPressed">#F1F1F1</color>
+    <color name="pinkFabPressed">#EC407A</color>
+    <color name="blueSemiTransparent">#805677FC</color>
+    <color name="blueSemiTransparentFabPressed">#80738FFE</color>
+    <color name="yellowDrk">#CB9E0C</color>
+    <color name="yellowDrkFabPressed">#DCB535</color>
+    <color name="colorPrimaryAmberFabPressed">#FCCD3E</color>
+    <color name="colorPrimaryBlueMidnightFabPressed">#40464B</color>
+
+    <!--Social Media background-->
+    <color name="socialFacbook">#36609F</color>
+    <color name="socialTwitter">#2BA9E0</color>
+    <color name="socialGooglePlus">#DB5442</color>
+    <color name="socialLinkedin">#066C9A</color>
+</resources>
